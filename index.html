@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Microsoft JhengHei !important;
+        }
+
+        .carousel-height {
+            height: 25rem;
+        }
+
+        .bg-cover {
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .bg-covertop {
+            background-size: cover;
+            background-position: top center;
+        }
+
+        .opacity-80 {
+            opacity: .8;
+        }
+
+        .footer-color {
+            background-color: #799c81;
+        }
+
+        .bg-form {
+            background-color: #c4dac9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="py-1 bg-secondary">
+        <div class="container text-right">
+            <a href="#twitter" class="text-light"><i class="fab fa-twitter-square fa-lg"></i></a>
+            <a href="#facebook" class="text-light mx-1"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#facebook" class="text-light"><i class="fab fa-facebook-square fa-lg"></i></a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">測試主題</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnavbar"
+                aria-control="topnavbar" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="topnavbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">測試1</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">測試2</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">測試3</a></li>
+                </ul>
+                <form class="ml-auto">
+                    <button class="btn btn-outline-info topprevent" data-target="#mainModal"
+                        data-toggle="modal">註冊</button>
+                    <button class="btn btn-outline-primary ml-2 topprevent" data-target="#logmodal"
+                        data-toggle="modal">登入</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselControl" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active bg-cover carousel-height"
+                style="background-image:url('https://cdn.pixabay.com/photo/2018/01/08/20/24/little-girl-3070211_960_720.jpg');">
+                <div class="carousel-caption bg-dark opacity-80 rounded p-5">
+                    <h3>這是一名少女</h3>
+                    <p>
+                        這是一個關於少女的敘述這是一個關於少女的敘述這是一個關於少女的敘述這是一個關於少女的敘述
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item bg-cover carousel-height"
+                style="background-image:url('https://cdn.pixabay.com/photo/2016/05/13/18/51/wet-girl-1390623_960_720.jpg')">
+                <div class="carousel-caption bg-dark opacity-80 rounded p-5">
+                    <h3>這是一名少女</h3>
+                    <p>
+                        這是一個關於少女的敘述這是一個關於少女的敘述這是一個關於少女的敘述這是一個關於少女的敘述
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item bg-cover carousel-height"
+                style="background-image:url('https://cdn.pixabay.com/photo/2014/12/03/17/45/girls-555650_960_720.jpg')">
+                <div class="carousel-caption bg-dark opacity-80 rounded p-5">
+                    <h3>這是一名少女</h3>
+                    <p>
+                        這是一個關於少女的敘述這是一個關於少女的敘述這是一個關於少女的敘述這是一個關於少女的敘述
+                    </p>
+                </div>
+            </div>
+            <a href="#carouselControl" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">prev</span>
+            </a>
+            <a href="#carouselControl" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">next</span>
+            </a>
+        </div>
+        <section class="bg-success">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-md-4">
+                        <div class="py-4"><i class="fas fa-camera-retro fa-3x"></i></div>
+                        <h5 class="font-weight-bold">這是一個不錯的東西</h5>
+                        <p>這是一個敘述內文這是一個敘述內文這是一個敘述內文這是一個敘述內文這是一個敘述內文</p>
+                    </div>
+                    <div class="col-md-4 mb-md-4">
+                        <div class="py-4"><i class="fas fa-photo-video fa-3x"></i></div>
+                        <h5 class="font-weight-bold">這是一個不錯的東西</h5>
+                        <p>這是一個敘述內文這是一個敘述內文這是一個敘述內文這是一個敘述內文這是一個敘述內文</p>
+                    </div>
+                    <div class="col-md-4 mb-md-4">
+                        <div class="py-4"><i class="fas fa-images fa-3x"></i></div>
+                        <h5 class="font-weight-bold">這是一個不錯的東西</h5>
+                        <p>這是一個敘述內文這是一個敘述內文這是一個敘述內文這是一個敘述內文這是一個敘述內文</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid bg-dark py-5" style="position:relative;">
+            <div class="row">
+                <div class="col-md-5 bg-covertop"
+                    style="position:absolute;
+                top:0;
+                bottom:0;
+                background-image:url('https://get.pxhere.com/photo/snow-cold-winter-girl-woman-female-fur-coat-spring-weather-fashion-clothing-jacket-outerwear-season-smile-textile-dress-footwear-snowflakes-winter-clothing-warm-clothing-914064.jpg')">
+                </div>
+                <div class="container text-light">
+                    <div class="row justify-content-end">
+                        <div class="col-md-7">
+                            <h5 class="font-weight-bold">這是一篇敘述文</h5>
+                            <p>
+                                這是一個關於少女的敘述這是一個關於少女的敘述這是一個關於少女的敘述這是一個關於少女的敘述這是一個關於少女的敘述這是一個關於少女的敘述這
+                            </p>
+                            <div class="row">
+                                <div class="col-md-12 my-3">
+                                    <button type="button" class="btn btn-outline-success">
+                                        查看更多
+                                    </button>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>可以遠觀</h5>
+                                    <p>
+                                        這是一個女子的故事
+                                        這是一個女子的故事
+                                        這是一個女子的故事
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>不可邂玩</h5>
+                                    <p>
+                                        這是一個女子的故事
+                                        這是一個女子的故事
+                                        這是一個女子的故事
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 footer-color">
+            <h2 class="text-center font-weight-bold">
+                這是一段標題
+            </h2>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="mr-4">
+                                <i class="fas fa-award fa-3x"></i>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="font-weight-bold">
+                                    這是一個標題
+                                </h5>
+                                <p>
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="mr-4">
+                                <i class="fab fa-bandcamp fa-3x"></i>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="font-weight-bold">
+                                    這是一個標題
+                                </h5>
+                                <p>
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="mr-4">
+                                <i class="fas fa-atom fa-3x"></i>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="font-weight-bold">
+                                    這是一個標題
+                                </h5>
+                                <p>
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="mr-4">
+                                <i class="fab fa-artstation fa-3x"></i>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="font-weight-bold">
+                                    這是一個標題
+                                </h5>
+                                <p>
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                    這室內文這室內文這室內文
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-form py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d7230.060532354904!2d121.53464271179902!3d25.033046917409777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e3!4m0!4m3!3m2!1d25.031734580583564!2d121.53464271181043!5e0!3m2!1szh-TW!2stw!4v1571409761285!5m2!1szh-TW!2stw"
+                            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="" class="needs-validation" novalidate>
+                            <div class="form-group">
+                                <label for="tbname">*姓名</label>
+                                <input class="form-control" type="text" name="name" id="tbname" required>
+                                <div class="invalid-feedback">
+                                    請輸入姓名
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbphone">*電話</label>
+                                <input class="form-control" type="text" name="phone" id="tbphone" required>
+                                <div class="invalid-feedback">
+                                    請輸入連絡電話
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbemail">*email</label>
+                                <input class="form-control" type="email" name="name" id="tbemail" required>
+                                <div class="invalid-feedback">
+                                    請輸入 email
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="numperson">人數</label>
+                                <input class="form-control" type="text" name="numperson" id="tbname">
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="gender" id="rdgender1" class="form-check-input">
+                                <label for="rdgender1" class="form-check-label">男</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="gender" id="rdgender2" class="form-check-input">
+                                <label for="rdgender2" class="form-check-label">女</label>
+                            </div>
+                            <div class="form-group mt-3 text-right">
+                                <input class="btn btn-outline-primary" type="button" value="取消">
+                                <input class="btn btn-primary" type="submit" value="送出">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="mainModal" class="modal fade">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-success font-weight-bold">
+                        <div class="modal-title">
+                            註冊
+                        </div>
+                        <button class="close" data-dismiss="modal">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body bg-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="tbregemail">*電子郵件</label>
+                                <input class="form-control" type="text" name="email" id="tbregemail">
+                            </div>
+                            <div class="form-group">
+                                <label for="tbregname">*姓名</label>
+                                <input class="form-control" type="text" name="name" id="tbregname">
+                            </div>
+                            <div class="form-group">
+                                <label for="tbregpass">*密碼</label>
+                                <input class="form-control" type="password" name="pass" id="tbregpass">
+                            </div>
+                            <div class="form-group">
+                                <label for="tbphone"">電話</label>
+                                <input class=" form-control" type=" text" name="phone" id="tbphone">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer bg-form text-right">
+                        <button class="btn btn-link" data-dismiss="modal" data-toggle="modal"
+                            data-target="#logmodal">註冊過了?</button>
+                        <button class="btn btn-info ml-auto">確定</button>
+                        <button class="btn btn-outline-info" data-dismiss="modal">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 這個要做一個登入的表單 -->
+        <div id="logmodal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary text-light">
+                        <div class="modal-title">
+                            登入
+                        </div>
+                        <button class="close" data-dismiss="modal">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body bg-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="tbaccount">*帳號</label>
+                                <input class="form-control" type="text" name="account" id="tbaccount">
+                                <small class="form-text">*輸入帳號為電子郵件或電話號碼</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbpass">*密碼</label>
+                                <input class="form-control" type="password" name="pw" id="tbpass">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer bg-form text-right">
+                        <button class="btn btn-link" data-dismiss="modal" data-toggle="modal"
+                            data-target="#mainModal">尚未註冊?</button>
+                        <button class="btn btn-primary ml-auto">確定</button>
+                        <button class="btn btn-outline-primary" data-dismiss="modal">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css' />
+        <link rel='stylesheet'
+            href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css' />
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.js'></script>
+        <script>
+            (function () {
+                'use strict';
+                window.addEventListener('load', function () {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })();
+            $(function () {
+                $('.carousel').carousel({
+                    interval: 5000
+                })
+
+                $('.topprevent').click(function (e) {
+                    e.preventDefault()
+                })
+            });
+
+            // >navbar
+            // >carousel
+            // >3colgrid-section
+            // >mix-section>L:imgR+R:(title+content+1colbtn+(2col-section))
+            // >2colmedia * 2
+            // 2col>L:map+R:form
+            // 最後只差一點就可以完成 modal 了
+            // 我們嘗試要用 bootstrap 的元件做一個切換
+
+            // PS modal 再行動版互相切換會有一些問題
+            // 因為這時候 body 有個 modalopen 的屬性，導致錯誤。
+            // 錯誤在於 modal 的滾輪不能使用，變成只能滾動 body
+            // 不應該發生這事
+
+            $('button[data-dismiss="modal"][data-toggle="modal"]').click(function() {
+                const vm = $(this)
+                const target = vm.data('target')
+                
+                // 這個事件是 modal 完全顯示時，會觸發的動作。
+                $(target).on('shown.bs.modal',function () {
+                    $('body').addClass('modal-open')
+                })
+            })
+
+        </script>
+</body>
+
+</html>
